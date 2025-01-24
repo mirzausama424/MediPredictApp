@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2FBE652D42627700BD17B7 /* MediPredictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBE642D42627700BD17B7 /* MediPredictApp.swift */; };
+		FA2FBE672D42627700BD17B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBE662D42627700BD17B7 /* ContentView.swift */; };
+		FA2FBE692D42627800BD17B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2FBE682D42627800BD17B7 /* Assets.xcassets */; };
+		FA2FBE6C2D42627900BD17B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2FBE6B2D42627900BD17B7 /* Preview Assets.xcassets */; };
+		FA2FBE772D42627900BD17B7 /* MediPredictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBE762D42627900BD17B7 /* MediPredictTests.swift */; };
+		FA2FBE822D42627900BD17B7 /* MediPredictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBE812D42627900BD17B7 /* MediPredictUITests.swift */; };
+		FA2FBE932D426EE800BD17B7 /* HeatDieasesModelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBE922D426EE800BD17B7 /* HeatDieasesModelScreen.swift */; };
+		FA2FBE9D2D426F3C00BD17B7 /* ParkisonsModelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBE9C2D426F3C00BD17B7 /* ParkisonsModelScreen.swift */; };
+		FA2FBEA82D42CE8000BD17B7 /* DiabetesPredectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBEA72D42CE8000BD17B7 /* DiabetesPredectionScreen.swift */; };
+		FA2FBEB82D43CB7600BD17B7 /* PredectionModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBEB72D43CB7600BD17B7 /* PredectionModelClass.swift */; };
+		FA2FBEBD2D43CB9100BD17B7 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBEBC2D43CB9100BD17B7 /* ApiCall.swift */; };
+		FA2FBEC22D43D40000BD17B7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBEC12D43D40000BD17B7 /* SplashScreen.swift */; };
+		FA2FBEC72D442F7300BD17B7 /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FBEC62D442F7300BD17B7 /* PrivacyPolicy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2FBE732D42627900BD17B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2FBE592D42627700BD17B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2FBE602D42627700BD17B7;
+			remoteInfo = MediPredict;
+		};
+		FA2FBE7E2D42627900BD17B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2FBE592D42627700BD17B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2FBE602D42627700BD17B7;
+			remoteInfo = MediPredict;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2FBE612D42627700BD17B7 /* MediPredict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediPredict.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2FBE642D42627700BD17B7 /* MediPredictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediPredictApp.swift; sourceTree = "<group>"; };
+		FA2FBE662D42627700BD17B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA2FBE682D42627800BD17B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2FBE6B2D42627900BD17B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA2FBE6D2D42627900BD17B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2FBE722D42627900BD17B7 /* MediPredictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediPredictTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2FBE762D42627900BD17B7 /* MediPredictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediPredictTests.swift; sourceTree = "<group>"; };
+		FA2FBE782D42627900BD17B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2FBE7D2D42627900BD17B7 /* MediPredictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediPredictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2FBE812D42627900BD17B7 /* MediPredictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediPredictUITests.swift; sourceTree = "<group>"; };
+		FA2FBE832D42627900BD17B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2FBE922D426EE800BD17B7 /* HeatDieasesModelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatDieasesModelScreen.swift; sourceTree = "<group>"; };
+		FA2FBE9C2D426F3C00BD17B7 /* ParkisonsModelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkisonsModelScreen.swift; sourceTree = "<group>"; };
+		FA2FBEA72D42CE8000BD17B7 /* DiabetesPredectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabetesPredectionScreen.swift; sourceTree = "<group>"; };
+		FA2FBEB72D43CB7600BD17B7 /* PredectionModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredectionModelClass.swift; sourceTree = "<group>"; };
+		FA2FBEBC2D43CB9100BD17B7 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		FA2FBEC12D43D40000BD17B7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		FA2FBEC62D442F7300BD17B7 /* PrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2FBE5E2D42627700BD17B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2FBE6F2D42627900BD17B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2FBE7A2D42627900BD17B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2FBE582D42627600BD17B7 = {
+			isa = PBXGroup;
+			children = (
+				FA2FBE632D42627700BD17B7 /* MediPredict */,
+				FA2FBE752D42627900BD17B7 /* MediPredictTests */,
+				FA2FBE802D42627900BD17B7 /* MediPredictUITests */,
+				FA2FBE622D42627700BD17B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2FBE622D42627700BD17B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FBE612D42627700BD17B7 /* MediPredict.app */,
+				FA2FBE722D42627900BD17B7 /* MediPredictTests.xctest */,
+				FA2FBE7D2D42627900BD17B7 /* MediPredictUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2FBE632D42627700BD17B7 /* MediPredict */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FBE642D42627700BD17B7 /* MediPredictApp.swift */,
+				FA2FBE662D42627700BD17B7 /* ContentView.swift */,
+				FA2FBEB72D43CB7600BD17B7 /* PredectionModelClass.swift */,
+				FA2FBEBC2D43CB9100BD17B7 /* ApiCall.swift */,
+				FA2FBEC12D43D40000BD17B7 /* SplashScreen.swift */,
+				FA2FBEC62D442F7300BD17B7 /* PrivacyPolicy.swift */,
+				FA2FBE9C2D426F3C00BD17B7 /* ParkisonsModelScreen.swift */,
+				FA2FBE922D426EE800BD17B7 /* HeatDieasesModelScreen.swift */,
+				FA2FBEA72D42CE8000BD17B7 /* DiabetesPredectionScreen.swift */,
+				FA2FBE682D42627800BD17B7 /* Assets.xcassets */,
+				FA2FBE6D2D42627900BD17B7 /* Info.plist */,
+				FA2FBE6A2D42627900BD17B7 /* Preview Content */,
+			);
+			path = MediPredict;
+			sourceTree = "<group>";
+		};
+		FA2FBE6A2D42627900BD17B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FBE6B2D42627900BD17B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA2FBE752D42627900BD17B7 /* MediPredictTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FBE762D42627900BD17B7 /* MediPredictTests.swift */,
+				FA2FBE782D42627900BD17B7 /* Info.plist */,
+			);
+			path = MediPredictTests;
+			sourceTree = "<group>";
+		};
+		FA2FBE802D42627900BD17B7 /* MediPredictUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FBE812D42627900BD17B7 /* MediPredictUITests.swift */,
+				FA2FBE832D42627900BD17B7 /* Info.plist */,
+			);
+			path = MediPredictUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2FBE602D42627700BD17B7 /* MediPredict */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2FBE862D42627900BD17B7 /* Build configuration list for PBXNativeTarget "MediPredict" */;
+			buildPhases = (
+				FA2FBE5D2D42627700BD17B7 /* Sources */,
+				FA2FBE5E2D42627700BD17B7 /* Frameworks */,
+				FA2FBE5F2D42627700BD17B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediPredict;
+			productName = MediPredict;
+			productReference = FA2FBE612D42627700BD17B7 /* MediPredict.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2FBE712D42627900BD17B7 /* MediPredictTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2FBE892D42627900BD17B7 /* Build configuration list for PBXNativeTarget "MediPredictTests" */;
+			buildPhases = (
+				FA2FBE6E2D42627900BD17B7 /* Sources */,
+				FA2FBE6F2D42627900BD17B7 /* Frameworks */,
+				FA2FBE702D42627900BD17B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2FBE742D42627900BD17B7 /* PBXTargetDependency */,
+			);
+			name = MediPredictTests;
+			productName = MediPredictTests;
+			productReference = FA2FBE722D42627900BD17B7 /* MediPredictTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2FBE7C2D42627900BD17B7 /* MediPredictUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2FBE8C2D42627900BD17B7 /* Build configuration list for PBXNativeTarget "MediPredictUITests" */;
+			buildPhases = (
+				FA2FBE792D42627900BD17B7 /* Sources */,
+				FA2FBE7A2D42627900BD17B7 /* Frameworks */,
+				FA2FBE7B2D42627900BD17B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2FBE7F2D42627900BD17B7 /* PBXTargetDependency */,
+			);
+			name = MediPredictUITests;
+			productName = MediPredictUITests;
+			productReference = FA2FBE7D2D42627900BD17B7 /* MediPredictUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2FBE592D42627700BD17B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA2FBE602D42627700BD17B7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FA2FBE712D42627900BD17B7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA2FBE602D42627700BD17B7;
+					};
+					FA2FBE7C2D42627900BD17B7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA2FBE602D42627700BD17B7;
+					};
+				};
+			};
+			buildConfigurationList = FA2FBE5C2D42627700BD17B7 /* Build configuration list for PBXProject "MediPredict" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2FBE582D42627600BD17B7;
+			productRefGroup = FA2FBE622D42627700BD17B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2FBE602D42627700BD17B7 /* MediPredict */,
+				FA2FBE712D42627900BD17B7 /* MediPredictTests */,
+				FA2FBE7C2D42627900BD17B7 /* MediPredictUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2FBE5F2D42627700BD17B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2FBE6C2D42627900BD17B7 /* Preview Assets.xcassets in Resources */,
+				FA2FBE692D42627800BD17B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2FBE702D42627900BD17B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2FBE7B2D42627900BD17B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2FBE5D2D42627700BD17B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2FBEC22D43D40000BD17B7 /* SplashScreen.swift in Sources */,
+				FA2FBEC72D442F7300BD17B7 /* PrivacyPolicy.swift in Sources */,
+				FA2FBE672D42627700BD17B7 /* ContentView.swift in Sources */,
+				FA2FBE652D42627700BD17B7 /* MediPredictApp.swift in Sources */,
+				FA2FBE932D426EE800BD17B7 /* HeatDieasesModelScreen.swift in Sources */,
+				FA2FBEBD2D43CB9100BD17B7 /* ApiCall.swift in Sources */,
+				FA2FBEB82D43CB7600BD17B7 /* PredectionModelClass.swift in Sources */,
+				FA2FBE9D2D426F3C00BD17B7 /* ParkisonsModelScreen.swift in Sources */,
+				FA2FBEA82D42CE8000BD17B7 /* DiabetesPredectionScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2FBE6E2D42627900BD17B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2FBE772D42627900BD17B7 /* MediPredictTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2FBE792D42627900BD17B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2FBE822D42627900BD17B7 /* MediPredictUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2FBE742D42627900BD17B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2FBE602D42627700BD17B7 /* MediPredict */;
+			targetProxy = FA2FBE732D42627900BD17B7 /* PBXContainerItemProxy */;
+		};
+		FA2FBE7F2D42627900BD17B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2FBE602D42627700BD17B7 /* MediPredict */;
+			targetProxy = FA2FBE7E2D42627900BD17B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA2FBE842D42627900BD17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA2FBE852D42627900BD17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2FBE872D42627900BD17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MediPredict/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MediPredict/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mirzausama.MediPredict;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2FBE882D42627900BD17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MediPredict/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MediPredict/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mirzausama.MediPredict;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA2FBE8A2D42627900BD17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediPredictTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mirzausama.MediPredictTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediPredict.app/MediPredict";
+			};
+			name = Debug;
+		};
+		FA2FBE8B2D42627900BD17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediPredictTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mirzausama.MediPredictTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediPredict.app/MediPredict";
+			};
+			name = Release;
+		};
+		FA2FBE8D2D42627900BD17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediPredictUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mirzausama.MediPredictUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediPredict;
+			};
+			name = Debug;
+		};
+		FA2FBE8E2D42627900BD17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MediPredictUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mirzausama.MediPredictUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediPredict;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2FBE5C2D42627700BD17B7 /* Build configuration list for PBXProject "MediPredict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2FBE842D42627900BD17B7 /* Debug */,
+				FA2FBE852D42627900BD17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2FBE862D42627900BD17B7 /* Build configuration list for PBXNativeTarget "MediPredict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2FBE872D42627900BD17B7 /* Debug */,
+				FA2FBE882D42627900BD17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2FBE892D42627900BD17B7 /* Build configuration list for PBXNativeTarget "MediPredictTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2FBE8A2D42627900BD17B7 /* Debug */,
+				FA2FBE8B2D42627900BD17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2FBE8C2D42627900BD17B7 /* Build configuration list for PBXNativeTarget "MediPredictUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2FBE8D2D42627900BD17B7 /* Debug */,
+				FA2FBE8E2D42627900BD17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2FBE592D42627700BD17B7 /* Project object */;
+}
