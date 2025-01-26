@@ -1,11 +1,10 @@
 import SwiftUI
-import PDFKit
-import UIKit // Required for UIActivityViewController
+import UIKit
 
-// Wrapper struct to make Data Identifiable
+// ShareableData model to hold PDF data
 struct ShareableData: Identifiable {
-    let id = UUID()
-    let data: Data
+    var id = UUID()
+    var data: Data
 }
 
 struct ParkinsonScreenView: View {
@@ -63,6 +62,10 @@ struct ParkinsonScreenView: View {
                     endPoint: .bottom
                 )
                 .ignoresSafeArea()
+                .onTapGesture {
+                    // Dismiss keyboard when tapping outside of the form
+                    hideKeyboard()
+                }
 
                 VStack(spacing: 15) {
                     Text("Parkinson's Prediction")
@@ -182,6 +185,10 @@ struct ParkinsonScreenView: View {
         }
     }
 
+    private func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+
     private func customInputField(title: String, text: Binding<String>) -> some View {
         VStack(alignment: .leading, spacing: 5) {
             Text(title)
@@ -198,7 +205,7 @@ struct ParkinsonScreenView: View {
         }
         .padding(.horizontal)
     }
-    
+
     private func predictAction() {
         guard !isLoading else { return } // Prevent multiple predictions
         isLoading = true
@@ -287,13 +294,12 @@ struct ParkinsonScreenView: View {
     }
 }
 
-// ActivityView for sharing content
+// ActivityView to share the result
 struct ActivityView: UIViewControllerRepresentable {
-    let activityItems: [Any]
-    let applicationActivities: [UIActivity]? = nil
+    var activityItems: [Any]
 
     func makeUIViewController(context: Context) -> UIActivityViewController {
-        UIActivityViewController(activityItems: activityItems, applicationActivities: applicationActivities)
+        return UIActivityViewController(activityItems: activityItems, applicationActivities: nil)
     }
 
     func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
